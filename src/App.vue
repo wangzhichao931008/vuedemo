@@ -11,7 +11,7 @@
         </li>
       </ul>
       <hr>
-         <h2>已完成</h2>
+         <h2>已完成wangzhichao</h2>
       <ul>
         <li v-for="(item,key) in jinxinglist" v-if="!item.checked">
           <input type="checkbox"> {{item.title}}------ <button @click= "del(key)">-</button>
